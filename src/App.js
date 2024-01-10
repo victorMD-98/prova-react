@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import SecondoComp from './componenti/SecondoComp';
+import PrimoCom from './componenti/primoCom';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Prima app</h1>
+      <PrimoCom titolo = "Click"/>
+      <SecondoComp src="https://media.istockphoto.com/id/959635616/it/foto/skyline-di-torino-al-tramonto-torino-italia-panorama-paesaggio-urbano-con-la-mole-antonelliana.jpg?s=612x612&w=0&k=20&c=VT6jnYbydXS3vDnUYRtwYt-FqswgTZ93D4OmW1ejJug=" alt="Torino"/>
     </div>
   );
 }
